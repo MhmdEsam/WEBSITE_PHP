@@ -1,0 +1,671 @@
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+    type="/imgs/Logo.png"
+    href="https://cdn.glitch.me/4a056743-d853-4bac-8293-6b6fd32c95de%2FLogo.png?v=1636520514320">
+    <title>Made For You &bull; Policy </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="https://madeforyou.glitch.me/">
+    <meta name="copyright" content="(c) Copyright DevsAPP">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="375">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="theme-color" content="#36393f">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Made For You - Policy">
+    <meta property="og:site_name" content="https://madeforyou.glitch.me/">
+    <meta property="og:description" content="DevsAPP">
+    <meta name="description" content="Made For You ">
+    <meta property="og:image" content="/imgs/Logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://madeforyou.glitch.me/">
+    <meta name="twitter:title" content="Made For You &bull; Policy">
+    <meta name="twitter:description" content="DevsAPP">
+    <meta name="google-site-verification" content="">
+    </head>
+    <body>
+        
+        <script type="text/javascript">var preload = document.createElement('div'); preload.className = "preloader"; preload.innerHTML = '</div><div class="spinner"></div>'; document.body.appendChild(preload); window.addEventListener('load', function() { preload.className +=  ' fade'; setTimeout(function(){ preload.style.display = 'none'; },600); 
+        })</script>
+        <noscript>
+        <div class="no-js">
+        To view the page please enable javascript in your browser
+        </div></noscript>
+        <nav class="nav" role="navigation">
+        <span class="logo"><a href="https://madeforyou.glitch.me/" rel="noopener" aria-label="Open home page"><span class="name"><img src="https://cdn.glitch.me/4a056743-d853-4bac-8293-6b6fd32c95de%2FLogo.png?v=1636520514320" alt="logo" style="width:40px;height:40px;vertical-align:middle; border-radius: 50%"></span></a></span>
+        <link rel="icon"
+            type="imgs/Logo.png"
+            href="imgs/Logo.png">
+        <div id="mobile">
+        <nav class="header__nav nav-bar">
+            <div class="toggle-menu">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+            </div>
+            <!-- phone -->
+            <ul class="nav-list">
+            <li class="nav-list-item"><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-list-item"><a href="design.php" class="nav-link">Design</a></li>
+            <li class="nav-list-item" > <a href="support.html" class="nav-link">Support</a></li>
+            <li class="nav-list-item"><a href="feedback.html" class="nav-link">Feedback</a></li>
+            <li class="nav-list-item"><a href="prime.html" class="nav-link">PrimeSoon</a></li>
+            <li class="nav-list-item"><a href="logout.php" class="nav-link">Logout</a></li>
+        
+            </ul>
+        </nav>
+        </div>
+        <ul class="menu">
+        
+        <!-- pc -->
+        <li><a href="index.php"  >Home</a></li>  
+        <li><a href="design.php"> Design</a></li>  
+        <li><a href="support.html" >Support</a></li>
+        <li><a href="feedback.html" >Feedback</a></li>
+        <li><a href="prime.html" >PrimeSoon</a></li>
+        <li><a href="logout.php" >Logout</a></li>
+        
+        
+        </ul>
+        
+        
+        </nav>
+        <script>
+        var toggleButton = document.querySelector('.toggle-menu');
+        var navBar = document.querySelector('.nav-bar');
+        toggleButton.addEventListener('click', function () {
+        navBar.classList.toggle('toggle');
+        });
+        </script>
+
+    <style>
+        @media (min-width: 950px) {
+        .nav li {
+        float: left;
+        }
+        .nav li a {
+        padding: 20px 30px;
+        }
+        .nav .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+        }
+        .nav .menu-icon {
+        display: none;
+        }
+        }
+        
+        .nav-bar {
+        border-top: 60px;
+        position: absolute;
+        background-color: #2f2f2f;
+        top: 0;
+        right: 100%;
+        height: 100vh;
+        width: 250px;
+        display: flex;
+        transition: position 2.9s;
+        -webkit-transition: position 2.9s;
+        -moz-transition: position 2.9s;
+        -ms-transition: position 2.9s;
+        -o-transition: position 2.9s;
+        }
+        
+        .toggle {
+        left: 0;
+        box-shadow: 1px 0 15px 2px rgba(0, 0, 0, 0.4);
+        
+        }
+        
+        .toggle-menu {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+            padding: 2px 2px 2px 3px;
+        border-radius: 5px;
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        }
+        
+        .line {
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: #fff;
+        transition: transform 0.2s ease-out;
+        -webkit-transition: transform 0.2s ease-out;
+        -moz-transition: transform 0.2s ease-out;
+        -ms-transition: transform 0.2s ease-out;
+        -o-transition: transform 0.2s ease-out;
+        }
+        
+        .toggle .line1 {
+        background-color: #000000;
+        transform: scale(0.9) rotateZ(-45deg) translate(-6px, 4px);
+        }
+        
+        .toggle .line2 {
+        display: none;
+        }
+        
+        .toggle .line3 {
+        background-color: #000000;
+        transform: scale(0.9) rotateZ(45deg) translate(-6px, -4px);
+        }
+        
+        .toggle .toggle-menu {
+        background-color: white;
+        }
+        
+        .nav-list {
+        list-style: none;
+        }
+        
+        .nav-list-item {
+        padding: 10px 0;
+        }
+        
+        .nav-link {
+        color: #fff;
+        font-size: 22px;
+        text-decoration: none;
+        position: relative;
+        padding-bottom: 4px;
+        }
+        
+        .nav-link::before {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        transform: scaleX(0);
+        transition: transform 0.4s ease-in-out;
+        transform-origin: left;
+        -webkit-transition: transform 0.4s ease-in-out;
+        -moz-transition: transform 0.4s ease-in-out;
+        -ms-transition: transform 0.4s ease-in-out;
+        -o-transition: transform 0.4s ease-in-out;
+        }
+        
+        .nav-link:hover::before {
+        transform: scaleX(1);
+        }
+        
+        #mobile {
+        display: none;
+        }
+        
+        @media only screen and (max-width: 768px) {
+        #mobile {
+            display: block;
+        }
+        }
+        </style>
+    <div class="blur" id="body-blur"></div>
+
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous">
+    <div class="page-content">
+    <input style="display: none" type="text" value="0" id="size">
+            <input style="display: none" type="text" value="0" id="size2">
+    </div>
+
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 style="text-align: center; font-size: 45px ">Made For You Policy</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    
+        <div style="margin: 100px; font-size:60px">
+            <p><b><u>Storage and Usage (users)</u></b><br>
+            We store user-id, username, and user-discriminator.<br>
+            <br>
+            <b><u>Storage and Usage (guilds)</u></b><br>
+            Made For You stores public information; Configuration saves &amp; Custom prefixes, guild name + guild ID<br>
+            <br>
+            <b><u>Made For You Security</u></b><br>
+            We implement a variety of security measures when a user places an order, enters, submits, or accesses their<br>information to maintain your personal information's safety. But remember that our storage is not 100% secured, and we<br>cannot guarantee its 100% safe.<br>
+            <br>
+            <b><u>Want us to remove your data?</u></b><br>
+            Personal Data is stored for as long as required by the purpose they have been<br>collected for. However, if you want us to delete your data, you can request data deletion at<br>any time by contacting us!
+            </p>
+            </div>
+
+    <!-- التعليمات الي تحت -->
+    <script src='https://github.hubspot.com/odometer/odometer.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <button id="return-to-top"><i class="icon-chevron-up"></i></button>
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <div id="mobileScreen">
+
+
+    <footer>
+    <nav class="footer-inner">
+        <section class="footer-item">
+        <h1>Made For You</h1>
+        
+        <h2>It is a site that helps you own your first software project so you can learn with us <br>Enjoy it</h2>
+        <br>
+        </section>
+            
+        <section class="footer-item">
+        <h3>Useful links</h3>
+            <ul>
+            <li><a href="policy.html">Policy</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </section>
+            
+        <section class="footer-item">
+        <h3>&nbsp;</h3>
+        <ul>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="embeds.html">Embeds</a></li>
+            </ul>
+    
+        </section>
+                
+        <section class="footer-item">
+
+        </section>
+            
+        <section class="footer-item">
+            <h3>Contact</h3>
+            <p><i class="far fa-envelope" style="font-size:16px"></i> <a href="support.html">Support</a> <br><a href="https://www.facebook.com/MhmdEsamm9/">or here</a></p>
+        </section>
+            
+
+
+        <section class="footer-item">
+    <div class="hover">
+
+    </div>
+
+        </section> 
+    </nav>
+
+    </footer>
+
+    <div class="ready">
+    <button class="right" onclick="PopupCenter('https://www.facebook.com/MhmdEsamm9', 'Follow Now', 500, 666)">Follow Me</button>
+
+        <p><b style="font-size: 20px"> Ready to made your own site </b><br>
+    Dont forget Follow my facebook for support.</p>
+    </div>
+
+    </div>
+    <style>
+
+        #return-to-top {
+            border:none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.7);
+            width: 50px;
+            height: 50px;
+            display: block;
+            text-decoration: none;
+            -webkit-border-radius: 35px;
+            -moz-border-radius: 35px;
+            border-radius: 35px;
+            display: none;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+        #return-to-top i {
+            color: #fff;
+            margin: 0;
+            position: relative;
+            left: 1px;
+            top: 1px;
+            font-size: 19px;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+        #return-to-top:hover {
+            background: rgba(0, 0, 0, 0.9);
+        }
+        #return-to-top:hover i {
+            color: #fff;
+            top: 5px;
+        }
+        
+        
+        
+        .right{
+        position: absolute;
+        right: 0;
+        margin-right: 80px;
+        background-color: #7289da;
+        border: 2px solid #7289da;
+        color: #fff;
+        display: inline-block;
+        font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 11pt;
+        border-radius: 3px;
+        cursor: pointer;
+        height: 45px;
+        width: 250px;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+        }
+        .right:active {
+        transform: translateY(2px);
+        }
+        .right:hover {
+        transform: translateY(1px);
+        }
+        .ready{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 120px;
+        }
+        footer {
+            background-color: #222222;
+            font-family: "Lato", sans-serif;
+            padding: 85px 0 285px 0;
+            border: 5px solid #2f2f2f;
+            border-radius: 5px;
+            margin-left: 80px;
+            
+            margin-right: 80px;
+            
+        }
+        
+        .footer-inner {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 120px;
+            max-width: 1170px;
+            position: relative;
+        }
+        
+        .footer-item {
+            float: left;
+            margin: 0 7.2% 0 0;
+        }
+        
+        .footer-item:nth-of-type(4) {
+            display: none;
+        }
+        
+        .footer-item:nth-of-type(7) {
+            float: right;
+            margin-right: 0;
+        }
+        
+        .footer-button {
+            color: white;
+            position: relative;
+            font-weight: 400;
+            font-size: 16px;
+            transition: 1s;
+            transition-delay: .2s;
+            padding: 14px;
+        }
+        
+        .footer-button:after {
+            content: "";
+            position: absolute;
+            top: 45px;
+            right: 13px;
+            background-color: white;
+            height: 1px;
+            width: 86px;
+            transition: .6s;
+        }
+        
+        .footer-button:hover {
+            color: black;
+            background-color: white;
+        }
+        
+        .footer-button:hover:after {
+            width: 112px;
+            right: 0px;
+        }
+        
+        h1 {
+            font-weight: 900;
+            color: white;
+            font-size: 24px;
+            letter-spacing: 2px;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            font-weight: 300;
+            line-height: 1.8;
+            font-size: 13px;
+            color: #d1d1d1;
+            letter-spacing: 0.03em;
+            padding: 15px 0 0 0;
+        }
+        
+        .color {
+            color: white;
+            font-weight: 400;
+        }
+        
+        h3 {
+            font-weight: 400;
+            font-size: 13px;
+            color: white;
+            margin: 0;
+            padding-bottom: 9px;
+            letter-spacing: 0.03em;
+        }
+        
+        h3.desktop {
+            padding-top: 30px;
+        }
+        
+        ul {
+            line-height: 1.8;
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            font-weight: 300;
+            font-size: 13px;
+            color: #d1d1d1;
+            letter-spacing: 0.03em;
+        }
+        
+        p {
+            font-weight: 300;
+            font-size: 13px;
+            padding: 0;
+            line-height: 1.8;
+            letter-spacing: 0.03em;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #d1d1d1;
+        }
+        
+        a:hover {
+            color: white;
+        }
+        
+        .desktop {
+            display: auto;
+        }
+        
+        .footer-inner:after {
+            content: "© 2021 DevsAPP, All rights reserved"; 
+            font-weight: 300;
+            letter-spacing: 0.03em;
+            font-size: 13px;
+            color: #d1d1d1;
+            position: absolute;
+            top: 260px;
+            clear: both;
+            display: block;
+        }
+        
+        @media (max-width: 1024px) {
+        
+        footer {
+            padding: 50px 0 70px 0 !important;
+        }
+        
+        .footer-inner {
+            border-bottom: 1px solid #333;
+            padding-bottom: 490px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-item {
+            margin: 0 0 42px 0;
+            width: 50%;
+        }
+        
+        .footer-item:nth-of-type(1) {
+            border-bottom: 1px solid #333;
+            padding-bottom: 32px;
+            float: none;
+            width: 100%;
+        }
+        
+        .footer-item:nth-of-type(2) {
+            clear: both;
+        }
+        
+        .footer-item:nth-of-type(4) {
+            clear: both;
+            display: block;
+        }
+        
+        .footer-item:nth-of-type(6) {
+            clear: both;
+        }
+        
+        .footer-item:nth-of-type(7) {
+            clear: both;
+            float: left;
+            margin: 20px 0 0 -13px;
+        }
+        
+        .desktop {
+            display: none;
+        }
+        
+        .footer-inner:after {
+            top: 730px;
+        }
+        }
+        
+        .hover {
+        width:200px;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        background-image: url('https://cdn.glitch.me/4a056743-d853-4bac-8293-6b6fd32c95de%2FLogo.png?v=1636520514320');
+        animation: hover 3s infinite linear;
+        } 
+        @keyframes hover {
+        0%   {top: 0px;}
+        50%  {top: 80px;}
+        100% {top: 0px;}
+        }
+        #mobileScreen {
+        display: block;
+        }
+        
+        @media only screen and (max-width: 1024px) {
+        #mobileScreen {
+            display: none;
+        }
+        }
+        </style>
+        <script>
+            function PopupCenter(e, n, t, i) {
+                var o = void 0 != window.screenLeft ? window.screenLeft : screen.left,
+                    d = void 0 != window.screenTop ? window.screenTop : screen.top,
+                    c = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width,
+                    w = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height,
+                    r = c / 2 - t / 2 + o, h = w / 2 - i / 2 + d,
+                    s = window.open(e, n, "scrollbars=yes, width=" + t + ", height=" + i + ", top=" + h + ", left=" + r);
+                window.focus && s.focus()
+            }
+        </script>
+        <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(200);    // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            }
+        });
+        $('#return-to-top').click(function() {      // When arrow is clicked
+            $('body,html').animate({
+                scrollTop : 0                       // Scroll to top of body
+            }, 500);
+        });
+        </script>
+        
+        </div>
+        <script src="index.js"></script>
+        
+    </body>
+    </html>
